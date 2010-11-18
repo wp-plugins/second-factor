@@ -15,22 +15,22 @@ This plugin prevents logged in users from doing anything on your wordpress.org b
 1. The user then enters the code at the page which is now presented to them when they are trying to access your blog
   * Behind the scenes the token is checked for validity, and a cookie is added to the users session.  They are now allowed access to your blog.  If the key changes (the user logs out, or is required to log in again) the cookie that they may have been using will no longer be valid and they will be asked to enter the new one that they get via email.
 == Frequently Asked Questions == 
-Why?
+= Why? =
 To add a second layer of security to your WordPress blog
 
-Why just email?
+= Why just email? =
 If there's interest we can add sms, im, or other types of authentication
 
-Is the email/form configurable?
+= Is the email/form configurable? =
 No, if there's interest then we can work on that.
 
-What are users blocked from before authenticating?
+= What are users blocked from before authenticating? =
 Everything.  If there's interest we can work on configurability
 
-Does this plugin affect anonymous users?
+= Does this plugin affect anonymous users? =
 No.
 
-Does this plugin affect commentors, or spam?
+= Does this plugin affect commentors, or spam? =
 No.
 == Screenshots ==
 1. Second Factor Authentication Page
@@ -38,7 +38,6 @@ No.
 = 1.0 =
 Initial release
 == Upgrade Notice ==
-= 1.0 =
 NA
 == Installation ==
 1. Make sure that you can get email from your blog, because upon installation you will be required to authenticate.  
