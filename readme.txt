@@ -19,3 +19,11 @@ This plugin prevents logged in users from doing anything on your wordpress.org b
 <p>What are users blocked from before authenticating?<br/>Everything.  If there's interest we can work on configurability</p>
 <p>Does this plugin affect anonymous users?<br/>No.</p>
 <p>Does this plugin affect commentors, or spam?<br/>No.</p>
+== Screenshots ==
+1. Second Factor Authentication Page
+== Changelog ==
+1.0 - Initial release
+== Upgrade Notice ==
+N/A
+== Installation ==
+Make sure that you can get emil from your blog, because upon installation you will be required to authenticate.  You may have to log out and back in to have a token sent to you after installation.
