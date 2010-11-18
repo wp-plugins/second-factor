@@ -41,5 +41,5 @@ Initial release
 = 1.0 =
 NA
 == Installation ==
-1. Make sure that you can get emil from your blog, because upon installation you will be required to authenticate.  
+1. Make sure that you can get email from your blog, because upon installation you will be required to authenticate.  
 1. You may have to log out and back in to have a token sent to you after installation.
